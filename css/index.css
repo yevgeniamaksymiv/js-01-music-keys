@@ -23,7 +23,8 @@ body {
     padding: 1rem .5rem;
     font-size: 1rem;
     color: aliceblue;
-    opacity: .9;
+    opacity: .95;
+    background: rgba(245, 245, 245, .15);
 }
 
 kbd {
