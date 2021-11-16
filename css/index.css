@@ -1,0 +1,35 @@
+body {
+    background-image: url("../img/main-photo.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.keys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.key {
+    border: 3px solid aliceblue;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    width: 70px;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    font-size: 1rem;
+    color: aliceblue;
+    opacity: .9;
+}
+
+kbd {
+    font-size: 2rem;
+}
+
+
+
+
