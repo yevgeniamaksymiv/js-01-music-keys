@@ -1,10 +1,17 @@
+const audios = document.querySelectorAll('audio');
+function stopAudio() {
+    audios.forEach(function(audio) {
+        audio.pause();
+    });
+}
 function playSound(e) {
             const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
             const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
             if (!audio) return;
+            stopAudio();
             audio.currentTime = 0;
             audio.play();
-            key.classList.add('playing');
+            key.classList.add('playing');  
         };
         
         function removeTransition(e) {
